@@ -105,8 +105,7 @@ void next_gen() {
       } else {
         next_cell = neighbors == 3 ? CELL_ON : CELL_OFF;
       }
-      mvprintw(c, r, "%c", next_cell);
-      next_buffer[r][c] = next_cell;
+      mvprintw(c, r, "%c", (next_buffer[r][c] = next_cell));
     }
   }
 }

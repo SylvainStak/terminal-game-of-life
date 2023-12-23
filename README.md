@@ -1,4 +1,6 @@
 # Terminal Game of Life
 
-![Game of Life Preview](https://github.com/SylvainStak/terminal-game-of-life/blob/master/preview.png)
+<p align="center">
+  <img width="707" height="551" src="https://github.com/SylvainStak/terminal-game-of-life/blob/master/preview.png">
+</p>
 

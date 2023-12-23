@@ -66,7 +66,7 @@ void allocate_buffers() {
     current_buffer[r] = (char *) malloc(columns * sizeof(char));
     next_buffer[r] = (char *) malloc(columns * sizeof(char));
     for (uint16_t c = 0; c < columns; c++)
-      current_buffer[r][c] = rand()%3==0 ? CELL_ON : CELL_OFF;
+      current_buffer[r][c] = rand()%2==0 ? CELL_ON : CELL_OFF;
   }
 }
 
